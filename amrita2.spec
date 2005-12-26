@@ -5,12 +5,12 @@ Version:	1.9.5
 Release:	1
 License:	GPL
 Group:		Development/Libraries
-Source0:	http://rubyforge.org/frs/download.php/4491/amrita2_050518.tar.gz
+Source0:	http://rubyforge.org/frs/download.php/4491/%{name}_050518.tar.gz
 # Source0-md5:	2cc56bd862b97cd05744945b8072b0c1
 Source1:	setup.rb
 URL:		http://amrita2.rubyforge.org/
-BuildRequires:	ruby
 BuildRequires:	rpmbuild(macros) >= 1.272
+BuildRequires:	ruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -28,7 +28,7 @@ ruby setup.rb config \
 	--siterubyver=%{ruby_rubylibdir} \
 	--sodir=%{ruby_archdir}
 
-ruby setup.rb setup 
+ruby setup.rb setup
 
 rdoc --op rdoc -S --main README README docs/*
 
