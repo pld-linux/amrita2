@@ -2,7 +2,7 @@ Summary:	An HTML/XHTML template library for Ruby
 Summary(pl):	Biblioteka szablonów HTML/XHTML dla jêzyka Ruby
 Name:		amrita2
 Version:	1.9.5
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Libraries
 Source0:	http://rubyforge.org/frs/download.php/4491/%{name}_050518.tar.gz
@@ -10,7 +10,7 @@ Source0:	http://rubyforge.org/frs/download.php/4491/%{name}_050518.tar.gz
 Source1:	setup.rb
 URL:		http://amrita2.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.272
-BuildRequires:	ruby
+BuildRequires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
