@@ -9,8 +9,9 @@ Source0:	http://rubyforge.org/frs/download.php/4491/%{name}_050518.tar.gz
 # Source0-md5:	2cc56bd862b97cd05744945b8072b0c1
 Source1:	setup.rb
 URL:		http://amrita2.rubyforge.org/
-BuildRequires:	rpmbuild(macros) >= 1.272
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
