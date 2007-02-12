@@ -1,5 +1,5 @@
 Summary:	An HTML/XHTML template library for Ruby
-Summary(pl.UTF-8):   Biblioteka szablonów HTML/XHTML dla języka Ruby
+Summary(pl.UTF-8):	Biblioteka szablonów HTML/XHTML dla języka Ruby
 Name:		amrita2
 Version:	1.9.6
 Release:	1
